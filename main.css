@@ -1,0 +1,16 @@
+.timer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(49, 44, 44);
+  color: rgb(241, 241, 184);
+  width: 800px;
+  margin: 0 auto;
+
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.field {
+  padding: 15px;
+  outline: 2px rgb(241, 241, 184) solid;
+}
