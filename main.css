@@ -1,16 +1,30 @@
+body {
+  font-family: "Share Tech Mono", monospace;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  background-image: url("https://i.yapx.ru/KDU0R.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .timer {
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(49, 44, 44);
-  color: rgb(241, 241, 184);
-  width: 800px;
-  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
 
-  font-size: 38px;
-  font-weight: 700;
+.title {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 60px;
+  font-size: 80px;
 }
 
 .field {
-  padding: 15px;
-  outline: 2px rgb(241, 241, 184) solid;
+  letter-spacing: 0.05em;
+  font-size: 40px;
+  padding: 5px 0;
 }
