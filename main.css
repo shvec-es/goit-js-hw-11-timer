@@ -2,7 +2,7 @@ body {
   font-family: "Share Tech Mono", monospace;
   color: #daf6ff;
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
-  background-image: url("https://i.yapx.ru/KDU0R.gif");
+  background-image: url("https://i.yapx.ru/KDU0c.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,4 +27,9 @@ body {
   letter-spacing: 0.05em;
   font-size: 40px;
   padding: 5px 0;
+}
+
+.music {
+  position: absolute;
+  bottom: 5%;
 }
